@@ -110,7 +110,7 @@ python gradio_diffbir.py \
 </div>
 
 ## <a name="colab"></a>:crossed_swords:colab demo
-[Inference + Train on google colab]([https://arxiv.org/abs/2308.15070](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb))
+[Inference + Train on google colab](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb)
 
 
 ## <a name="inference"></a>:crossed_swords:Inference
