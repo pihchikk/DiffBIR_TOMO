@@ -25,35 +25,18 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 - [Inference](#inference)
 - [Train](#train)
 
-## <a name="visual_results_micro"></a>:eyes:Visual Results On Microtomographic images
+## <a name="visual_results_micro"></a>Visual Results On Microtomographic images
+### x4 Super-resolution
 
-<!-- <details close>
-<summary>General Image Restoration</summary> -->
-### General Image Restoration
+[<img src="assets/visual_results/general6.png" height="223px"/>](https://imgsli.com/MTk5ODI3)
 
-[<img src="assets/visual_results/general6.png" height="223px"/>](https://imgsli.com/MTk5ODI3) [<img src="assets/visual_results/general7.png" height="223px"/>](https://imgsli.com/MTk5ODI4) [<img src="assets/visual_results/general4.png" height="223px"/>](https://imgsli.com/MTk5ODI1)
-
-[<img src="assets/visual_results/general1.png" height="223px"/>](https://imgsli.com/MTk5ODIy) [<img src="assets/visual_results/general2.png" height="223px"/>](https://imgsli.com/MTk5ODIz)
-
-[<img src="assets/visual_results/general3.png" height="223px"/>](https://imgsli.com/MTk5ODI0) [<img src="assets/visual_results/general5.png" height="223px"/>](https://imgsli.com/MjAxMjM0)
-
-<!-- </details> -->
-
-<!-- <details close> -->
-<!-- <summary>Face Image Restoration</summary> -->
-### Face Image Restoration
-
-[<img src="assets/visual_results/face1.png" height="223px"/>](https://imgsli.com/MTk5ODI5) [<img src="assets/visual_results/face2.png" height="223px"/>](https://imgsli.com/MTk5ODMw) [<img src="assets/visual_results/face4.png" height="223px"/>](https://imgsli.com/MTk5ODM0)
-
-[<img src="assets/visual_results/whole_image1.png" height="370"/>](https://imgsli.com/MjA2MTU0) 
-[<img src="assets/visual_results/whole_image2.png" height="370"/>](https://imgsli.com/MjA2MTQ4)
+## <a name="visual_results_med"></a>Visual Results On Medical Images
+### x4 Super-resolution
 <!-- [<img src="assets/visual_results/whole_image3.png" height="268"/>](https://imgsli.com/MjA1OTY2) -->
 <!-- [<img src="assets/visual_results/face3.png" height="223px"/>](https://imgsli.com/MTk5ODMy) -->
  <!-- [<img src="assets/visual_results/face5.png" height="223px"/>](https://imgsli.com/MTk5ODM1)  -->
 
 <!-- [<img src="assets/visual_results/whole_image1.png" height="410"/>](https://imgsli.com/MjA1OTU5) -->
-
-:star: Face and the background enhanced by DiffBIR.
 
 <!-- </details> -->
 
