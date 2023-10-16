@@ -292,17 +292,6 @@ For face image restoration, we adopt the degradation model used in [DifFace](htt
     python train.py --config [training_config_path]
     ```
 
-## Citation
-
-Please cite us if our work is useful for your research.
-
-```
-@article{2023diffbir,
-  author    = {Xinqi Lin, Jingwen He, Ziyan Chen, Zhaoyang Lyu, Ben Fei, Bo Dai, Wanli Ouyang, Yu Qiao, Chao Dong},
-  title     = {DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior},
-  journal   = {arxiv},
-  year      = {2023},
-}
 ```
 
 ## License
@@ -311,8 +300,8 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-This project is based on [ControlNet](https://github.com/lllyasviel/ControlNet) and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome work.
+This project is based on [DiffBIR](https://github.com/XPixelGroup/DiffBIR/) [ControlNet](https://github.com/lllyasviel/ControlNet) and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome work.
 
 ## Contact
 
-If you have any questions, please feel free to contact with me at linxinqi@tju.edu.cn.
+If you have any questions, please feel free to contact with me at bardashovdr@my.msu.ru
