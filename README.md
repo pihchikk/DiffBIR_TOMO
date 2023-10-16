@@ -41,13 +41,13 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 
 <!-- </details> -->
 
-## <a name="update"></a>:new:Update
+## <a name="update"></a>Update
 
 - **2023.16.10**: Repo created
 <!-- - [**History Updates** >]() -->
 
 
-## <a name="todo"></a>:climbing:TODO
+## <a name="todo"></a>TODO
 
 - [ ] Release code 
 - [ ] Release pretrained models
@@ -109,11 +109,11 @@ python gradio_diffbir.py \
     <kbd><img src="assets/gradio.png"></img></kbd>
 </div>
 
-## <a name="colab"></a>:colab demo
+## <a name="colab"></a>colab demo
 [Inference + Train on google colab](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb)
 
 
-## <a name="inference"></a>:Inference
+## <a name="inference"></a>Inference
 
 ### Full Pipeline (Remove Degradations & Refine Details)
 
