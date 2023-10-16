@@ -29,7 +29,7 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 ## <a name="visual_results_micro"></a>Visual Results On Microtomographic images
 ### x4 Super-resolution
 
-[<img src="assets/visual_results/general6.png" height="223px"/>](https://imgsli.com/MTk5ODI3)
+<!-- [<img src="assets/visual_results/general6.png" height="223px"/>](https://imgsli.com/MTk5ODI3) -->
 
 ## <a name="visual_results_med"></a>Visual Results On Medical Images
 ### x4 Super-resolution
