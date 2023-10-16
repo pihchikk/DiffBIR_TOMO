@@ -42,23 +42,16 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 
 ## <a name="update"></a>:new:Update
 
-- **2023.09.19**: 16.10.23. Repo created
+- **2023.16.10**: Repo created
 <!-- - [**History Updates** >]() -->
 
 
 ## <a name="todo"></a>:climbing:TODO
 
-- [x] Release code and pretrained models:computer:.
-- [x] Update links to paper and project page:link:.
-- [x] Release real47 testset:minidisc:.
-- [ ] Provide webui and reduce the memory usage of DiffBIR:fire::fire::fire:.
-- [ ] Provide HuggingFace demo:notebook::fire::fire::fire:.
-- [x] Add a patch-based sampling schedule:mag:.
-- [x] Upload inference code of latent image guidance:page_facing_up:.
-- [ ] Improve the performance:superhero:.
-- [x] Support MPS acceleration for MacOS users.
+- [x] Release code and pretrained models
+- [ ] Provide webui and reduce the memory usage of DiffBIR
 
-## <a name="installation"></a>:gear:Installation
+## <a name="installation"></a>Installation
 <!-- - **Python** >= 3.9
 - **CUDA** >= 11.3
 - **PyTorch** >= 1.12.1
@@ -66,7 +59,7 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 
 ```shell
 # clone this repo
-git clone https://github.com/XPixelGroup/DiffBIR.git
+git clone https://github.com/pihchikk/DiffBIR_TOMO
 cd DiffBIR
 
 # create an environment with python >= 3.9
@@ -97,10 +90,7 @@ pip install -r requirements.txt
 
 | Model Name | Description | HuggingFace | BaiduNetdisk | OpenXLab |
 | :--------- | :---------- | :---------- | :---------- | :---------- |
-| general_swinir_v1.ckpt | Stage1 model (SwinIR) for general image restoration. | [download](https://huggingface.co/lxq007/DiffBIR/resolve/main/general_swinir_v1.ckpt) | [download](https://pan.baidu.com/s/1uvSvJgcoL_Knj0h22-9TvA?pwd=v3v6) (pwd: v3v6) | [download](https://download.openxlab.org.cn/models/linxinqi/DiffBIR/weight//diffbir_general_swinir_v1) |
-| general_full_v1.ckpt | Full model for general image restoration. "Full" means it contains both the stage1 and stage2 model. | [download](https://huggingface.co/lxq007/DiffBIR/resolve/main/general_full_v1.ckpt) | [download](https://pan.baidu.com/s/1gLvW1nvkJStdVAKROqaYaA?pwd=86zi) (pwd: 86zi) | [download](https://download.openxlab.org.cn/models/linxinqi/DiffBIR/weight//diffbir_general_full_v1) |
-| face_swinir_v1.ckpt | Stage1 model (SwinIR) for face restoration. | [download](https://huggingface.co/lxq007/DiffBIR/resolve/main/face_swinir_v1.ckpt) | [download](https://pan.baidu.com/s/1cnBBC8437BJiM3q6suaK8g?pwd=xk5u) (pwd: xk5u) | [download](https://download.openxlab.org.cn/models/linxinqi/DiffBIR/weight//diffbir_face_swinir_v1) |
-| face_full_v1.ckpt | Full model for face restoration. | [download](https://huggingface.co/lxq007/DiffBIR/resolve/main/face_full_v1.ckpt) | [download](https://pan.baidu.com/s/1pc04xvQybkynRfzK5Y8K0Q?pwd=ov8i) (pwd: ov8i) | [download](https://download.openxlab.org.cn/models/linxinqi/DiffBIR/weight//diffbir_face_full_v1) |
+| swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) (pwd: v3v6) | [download](- |
 
 ## <a name="quick_start"></a>:flight_departure:Quick Start
 
