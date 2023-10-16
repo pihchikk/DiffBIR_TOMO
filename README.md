@@ -2,7 +2,7 @@
     <img src="assets/logo.png" width="400">
 </p>
 
-## DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior
+## DiffBIR TOMO: Towards Blind Image Restoration with Generative Diffusion Prior for Soil Tomography
 
 [Paper](https://arxiv.org/abs/2308.15070)
 
