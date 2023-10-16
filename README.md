@@ -22,6 +22,7 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
 - [Quick Start (gradio demo)](#quick_start)
+- [Colab demo](#colab)
 - [Inference](#inference)
 - [Train](#train)
 
@@ -102,12 +103,15 @@ python gradio_diffbir.py \
 --config configs/model/cldm.yaml \
 --reload_swinir \
 --swinir_ckpt weights/general_swinir_v1.ckpt \
---device cuda
 ```
 
 <div align="center">
     <kbd><img src="assets/gradio.png"></img></kbd>
 </div>
+
+## <a name="colab"></a>:crossed_swords:colab demo
+[Inference + Train on google colab]([https://arxiv.org/abs/2308.15070](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb))
+
 
 ## <a name="inference"></a>:crossed_swords:Inference
 
