@@ -8,6 +8,8 @@
 
 forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior](https://0x3f3f3f3fun.github.io/projects/diffbir/)
 
+###Model architecture: 
+
 <p align="center">
     <img src="assets/architecture.png" style="border-radius: 15px">
 </p>
