@@ -89,9 +89,9 @@ pip install -r requirements.txt
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
-| Model Name | Description | HuggingFace | BaiduNetdisk | OpenXLab |
-| :--------- | :---------- | :---------- | :---------- | :---------- |
-| swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) (pwd: v3v6) | [download](-) |
+| Model Name | Description | HuggingFace | OpenXLab |
+| :--------- | :---------- | :---------- | :---------- |
+| swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) |
 
 ## <a name="quick_start"></a>:flight_departure:Quick Start
 
@@ -109,11 +109,11 @@ python gradio_diffbir.py \
     <kbd><img src="assets/gradio.png"></img></kbd>
 </div>
 
-## <a name="colab"></a>:crossed_swords:colab demo
+## <a name="colab"></a>:colab demo
 [Inference + Train on google colab](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb)
 
 
-## <a name="inference"></a>:crossed_swords:Inference
+## <a name="inference"></a>:Inference
 
 ### Full Pipeline (Remove Degradations & Refine Details)
 
@@ -136,52 +136,6 @@ python inference.py \
 ```
 
 Remove the brackets to enable tiled sampling. If you are confused about where the `reload_swinir` option came from, please refer to the [degradation details](#degradation-details).
-
-#### Face Image
-<!-- Download [face_full_v1.ckpt](https://huggingface.co/lxq007/DiffBIR/resolve/main/face_full_v1.ckpt) to `weights/` and run the following command. -->
-The [face_full_v1.ckpt](https://huggingface.co/lxq007/DiffBIR/resolve/main/face_full_v1.ckpt) will be downloaded from HuggingFace automatically.
-
-```shell
-# for aligned face inputs
-python inference_face.py \
---input inputs/demo/face/aligned \
---sr_scale 1 \
---output results/demo/face/aligned \
---has_aligned \
---device cuda
-```
-
-<a name="unaligned_face_inference"></a>
-
-```shell
-# for unaligned face inputs
-python inference_face.py \
---input inputs/demo/face/whole_img \
---sr_scale 2 \
---output results/demo/face/whole_img \
---bg_upsampler DiffBIR \
---device cuda
-```
-
-### Latent Image Guidance (Quality-fidelity trade-off)
-
-Latent image guidance is used to achieve a trade-off bwtween quality and fidelity. We default to closing it since we prefer quality rather than fidelity. Here is an example:
-
-```shell
-python inference.py \
---input inputs/demo/general \
---config configs/model/cldm.yaml \
---ckpt weights/general_full_v1.ckpt \
---reload_swinir --swinir_ckpt weights/general_swinir_v1.ckpt \
---steps 50 \
---sr_scale 4 \
---color_fix_type wavelet \
---output results/demo/general \
---device cuda \
---use_guidance --g_scale 400 --g_t_start 200
-```
-
-You will see that the results become more smooth.
 
 ### Only Stage1 Model (Remove Degradations)
 
