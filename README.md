@@ -87,13 +87,13 @@ conda install xformers==0.0.16 -c xformers
 pip install -r requirements.txt
 ``` -->
 
-## <a name="pretrained_models"></a>:dna:Pretrained Models
+## <a name="pretrained_models"></a>Pretrained Models
 
 | Model Name | Description | HuggingFace | OpenXLab |
 | :--------- | :---------- | :---------- | :---------- |
 | swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) |
 
-## <a name="quick_start"></a>:flight_departure:Quick Start
+## <a name="quick_start"></a>Quick Start
 
  Download [general_full_v1.ckpt](-) and [general_swinir_v1.ckpt](-) to `weights/`, then run the following command to interact with the gradio website. 
 
