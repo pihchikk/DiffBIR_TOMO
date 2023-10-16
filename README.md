@@ -169,7 +169,7 @@ python inference.py \
 --device cuda
 ```
 
-## <a name="train"></a>:stars:Train
+## <a name="train"></a>Train
 
 ### Degradation Details
 
@@ -218,7 +218,7 @@ For face image restoration, we adopt the degradation model used in [DifFace](htt
     python train.py --config [training_config_path]
     ```
 
-    :bulb::Checkpoints of SwinIR will be used in training stage2 model.
+    Checkpoints of SwinIR will be used in training stage2 model.
 
 ### Train Stage2 Model
 
