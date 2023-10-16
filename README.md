@@ -8,18 +8,16 @@
 
 forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior](https://0x3f3f3f3fun.github.io/projects/diffbir/)
 
-#Model architecture: 
+### Model architecture: 
 
 <p align="center">
     <img src="assets/architecture.png" style="border-radius: 15px">
 </p>
 
-:star:If DiffBIR is helpful for you, please help star this repo. Thanks!:hugs:
-
 ## :book:Table Of Contents
 
-- [Visual Results On Real-world Images](#visual_results)
-- [Update](#update)
+- [Visual Results On Microtomographic images](#visual_results_micro)
+- [Visual Results On Medical images](#visual_results_med)
 - [TODO](#todo)
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
