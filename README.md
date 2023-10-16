@@ -6,7 +6,7 @@
 
 [Paper](https://arxiv.org/abs/2308.15070)
 
-forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior](https://0x3f3f3f3fun.github.io/projects/diffbir/)
+Forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior](https://0x3f3f3f3fun.github.io/projects/diffbir/)
 
 ### Model architecture: 
 
