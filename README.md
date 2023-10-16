@@ -48,8 +48,8 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 
 ## <a name="todo"></a>:climbing:TODO
 
-- [x] Release code and pretrained models
-- [ ] Provide webui and reduce the memory usage of DiffBIR
+- [ ] Release code 
+- [ ] Release pretrained models
 
 ## <a name="installation"></a>Installation
 <!-- - **Python** >= 3.9
