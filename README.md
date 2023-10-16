@@ -6,7 +6,7 @@
 
 [Paper](https://arxiv.org/abs/2308.15070)
 
-forked from: [Project Page](https://0x3f3f3f3fun.github.io/projects/diffbir/)
+forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior](https://0x3f3f3f3fun.github.io/projects/diffbir/)
 
 <p align="center">
     <img src="assets/architecture.png" style="border-radius: 15px">
