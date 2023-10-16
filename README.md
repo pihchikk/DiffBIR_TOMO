@@ -109,7 +109,7 @@ python gradio_diffbir.py \
     <kbd><img src="assets/gradio.png"></img></kbd>
 </div>
 
-## <a name="colab"></a>colab demo
+## <a name="colab"></a>Colab demo
 [Inference + Train on google colab](https://colab.research.google.com/gist/pihchikk/ea1f01bdd70345dbcaa5d5965e5dfa6a/diffbir-inference-train.ipynb)
 
 
