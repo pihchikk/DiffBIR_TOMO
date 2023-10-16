@@ -88,14 +88,14 @@ pip install -r requirements.txt
 ``` -->
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
-```
+
 | Model Name | Description | HuggingFace | BaiduNetdisk | OpenXLab |
 | :--------- | :---------- | :---------- | :---------- | :---------- |
-| swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) (pwd: v3v6) | [download](- |
-```
+| swinir_tomo.ckpt | Stage1 model (SwinIR) for microtomographic image restoration. | [download](-) | [download](-) (pwd: v3v6) | [download](-) |
+
 ## <a name="quick_start"></a>:flight_departure:Quick Start
 
-``` Download [general_full_v1.ckpt](https://huggingface.co/lxq007/DiffBIR/resolve/main/general_full_v1.ckpt) and [general_swinir_v1.ckpt](https://huggingface.co/lxq007/DiffBIR/resolve/main/general_swinir_v1.ckpt) to `weights/`, then run the following command to interact with the gradio website. ```
+ Download [general_full_v1.ckpt](-) and [general_swinir_v1.ckpt](-) to `weights/`, then run the following command to interact with the gradio website. 
 
 ```shell
 python gradio_diffbir.py \
