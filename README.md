@@ -300,7 +300,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 
-This project is based on [DiffBIR](https://github.com/XPixelGroup/DiffBIR/) [ControlNet](https://github.com/lllyasviel/ControlNet) and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome work.
+This project is based on [DiffBIR](https://github.com/XPixelGroup/DiffBIR/) which is itself based on [ControlNet](https://github.com/lllyasviel/ControlNet) and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome work.
 
 ## Contact
 
