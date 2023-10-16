@@ -25,7 +25,7 @@ forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 - [Inference](#inference)
 - [Train](#train)
 
-## <a name="visual_results"></a>:eyes:Visual Results On Real-world Images
+## <a name="visual_results_micro"></a>:eyes:Visual Results On Microtomographic images
 
 <!-- <details close>
 <summary>General Image Restoration</summary> -->
