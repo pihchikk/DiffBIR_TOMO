@@ -292,7 +292,7 @@ For face image restoration, we adopt the degradation model used in [DifFace](htt
     python train.py --config [training_config_path]
     ```
 
-```
+
 
 ## License
 
