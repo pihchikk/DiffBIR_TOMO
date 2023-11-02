@@ -44,6 +44,8 @@ Forked from: [DiffBIR: Towards Blind Image Restoration with Generative Diffusion
 ## <a name="update"></a>Update
 
 - **2023.16.10**: Repo created
+- **2023.02.11**: Images should be normalised within [0,1] interval
+
 <!-- - [**History Updates** >]() -->
 
 
